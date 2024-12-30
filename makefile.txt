@@ -14,7 +14,6 @@ README.md: guessinggame.sh
 	echo -n "**Number of lines in guessinggame.sh:** " >> README.md
 	wc -l guessinggame.sh | egrep -o "[0-9]+" >> README.md
 	echo "" >> README.md
-	echo "**KUDOS!!!**" >> README.md
 	echo "" >> README.md
 	echo "**Warm Regards,**" >> README.md
 	echo "\\" >> README.md
